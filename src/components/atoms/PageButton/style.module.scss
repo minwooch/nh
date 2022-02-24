@@ -1,0 +1,27 @@
+@use "src/styles/theme";
+
+.pageButton {
+  background-color: white;
+
+  border-radius: 100%;
+  border: 1px solid;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 0px;
+  color: theme.$colorPrimary;
+
+  transition: color 0.2s, background-color 0.2s;
+
+
+  cursor: pointer;
+  &:hover {
+    background-color: theme.$colorPrimary;
+    color: white;
+  }
+  &.selected {
+    background-color: theme.$colorPrimary;
+    color: white;
+  }
+}

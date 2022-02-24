@@ -1,0 +1,6 @@
+@use "src/styles/theme";
+
+.title {
+  font-family: "NanumSquareRound";
+  color: theme.$colorTextPrimary;
+}

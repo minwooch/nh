@@ -1,0 +1,11 @@
+.pageList {
+  display: flex;
+  flex-flow: row wrap;
+  user-select: none;
+}
+
+.pageButton {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+}

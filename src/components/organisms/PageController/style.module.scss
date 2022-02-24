@@ -1,0 +1,8 @@
+@use "src/styles/theme";
+
+.pageController {
+  background-color: white;
+  grid-area: page-controller;
+  position: sticky;
+  top: theme.$headerHeight;
+}
